@@ -1,0 +1,14 @@
+@layer reset, base, tokens, recipes, utilities;
+@layer reset {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  /* ... */
+}
+
+p {
+  color: #2dcac5;
+  text-decoration: none;
+}
