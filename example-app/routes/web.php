@@ -20,3 +20,6 @@ Route::get('/', function () {
 Route::get('/dbconn', function(){
     return view('dbconn');
 });
+
+Route::get('/profile', ProfileController::class)
+    ->middleware('auth');
