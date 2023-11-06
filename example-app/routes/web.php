@@ -21,5 +21,5 @@ Route::get('/dbconn', function(){
     return view('dbconn');
 });
 
-Route::get('/profile', ProfileController::class)
-    ->middleware('auth');
+// Route::get('/login', LoginController::class)
+//     ->middleware('auth');
